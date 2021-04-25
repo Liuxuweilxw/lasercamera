@@ -117,7 +117,7 @@ namespace sc
             double Y = p_c[i].y();
             double Z = p_c[i].z();
 
-             if(Z<0) continue;
+             if(Z>0) continue;
 
             // std::cout<<"X : "<<X<<std::endl;
             // std::cout<<"Y : "<<Y<<std::endl;
@@ -149,7 +149,7 @@ namespace sc
 
         for (size_t j = 0; j < pixel.size(); ++j) {
             // cv::circle(img_src, pixel[j],1, cv::Scalar(0,255,0),1);
-            // std::cout<<pixel[j]<<std::endl;
+            std::cout<<pixel[j]<<std::endl;
             cv::circle(img_src, pixel[j],3, cv::Scalar(0,0,255),-1);
         }
         cv::imshow("show", img_src);
