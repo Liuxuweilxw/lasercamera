@@ -249,7 +249,7 @@ std::vector< Eigen::Vector3d > AutoGetLinePts(const std::vector<Eigen::Vector3d>
     std::vector<Eigen::Vector3d> ptsLine;
 
     for(int i=id_right;i<=id_left;i++){
-        if(points.at(i).head(2).norm()>0.3 && points.at(i).head(2).norm()<1.8&&points.at(i).x()>0){
+        if(points.at(i).head(2).norm()>0.3 && points.at(i).head(2).norm()<1.7){
             ptsLine.push_back(points.at(i));
             // std::cout<<points.at(i)<<std::endl;
         }

@@ -1,10 +1,10 @@
 %YAML:1.0
 
 #common parameters
-savePath: "/home/liuxuwei/Files/mrobot_ws/src/log/4.22/"
+savePath: "/home/liuxuwei/Files/mrobot_ws/src/log/4.23/"
 # savePath: "/home/liuxuwei/Files/"
 # savePath: "/home/liuxuwei/Files/mrobot_ws/src/log/little/"
-bag_path: "/home/liuxuwei/Files/mrobot_ws/src/log/4.22/2021-04-06-21-12-55.bag"
+bag_path: "/home/liuxuwei/Files/mrobot_ws/src/log/4.23/data.bag"
 
 scan_topic_name: "/scan"
 img_topic_name: "/camera/color/image_raw"

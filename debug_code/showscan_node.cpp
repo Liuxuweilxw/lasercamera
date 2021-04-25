@@ -117,7 +117,7 @@ namespace sc
             double Y = p_c[i].y();
             double Z = p_c[i].z();
 
-             if(Z>0) continue;
+             if(Z<0) continue;
 
             // std::cout<<"X : "<<X<<std::endl;
             // std::cout<<"Y : "<<Y<<std::endl;
