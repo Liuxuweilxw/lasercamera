@@ -168,7 +168,7 @@ int echo = 0;
         // std::cout<< "min_dt : " << min_dt <<std::endl;
         
         
-        if(min_dt < 0.02)  // 20ms
+        if(min_dt < 0.1)  // 100ms  我的激光雷达频率为10Hz
         {
 
 
